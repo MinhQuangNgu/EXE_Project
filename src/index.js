@@ -7,9 +7,10 @@ import { Provider } from "react-redux";
 import { render } from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
-import 'swiper/scss';
-import 'swiper/scss/navigation';
-import 'swiper/scss/pagination';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 render(
   <Provider store={store}>
