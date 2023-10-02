@@ -1,22 +1,22 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import './style.scss';
-const RecipeCard = ({ imageHeight = 350 }) => {
+import './style.scss'
+import { useNavigate } from 'react-router-dom';
+const RestaurantCard = () => {
 
     const navigate = useNavigate();
 
     const [contents, setContents] = useState([
         {
-            image: "https://res.cloudinary.com/sttruyen/image/upload/v1696209023/kjahvx90jdli2kokqcm1.jpg",
-            name: "Việt Nam",
-            place: "Hạ Long Bay",
-            description: "Hạ Long là thành phố tỉnh lỵ của tỉnh Quảng Ninh, Việt Nam. Thành phố được đặt theo tên của vịnh Hạ Long,"
+            image: "https://res.cloudinary.com/sttruyen/image/upload/v1696214117/j4wrt1usv3uacubdtnlf.jpg",
+            name: "Hải Phòng",
+            place: "Ăn là nhớ",
+            description: "Ăn là nhớ là quán ăn tại Hải Phòng với hơn 29 năm thành lập cùng với 30 món ăn các loại"
         },
         {
-            image: "https://res.cloudinary.com/sttruyen/image/upload/v1696208616/fg5rpw5nruik5xcsqvtg.webp",
-            name: "Việt Nam",
-            place: "Phú Quốc",
-            description: "Hạ Long là thành phố tỉnh lỵ của tỉnh Quảng Ninh, Việt Nam. Thành phố được đặt theo tên của vịnh Hạ Long,"
+            image: "https://res.cloudinary.com/sttruyen/image/upload/v1696214240/xvliu6abxg44kmreufnz.jpg",
+            name: "Hải Phòng",
+            place: "Ăn là nhớ",
+            description: "Với hơn 20 món ăn các loại được nấu bởi các đầu bếp chuyên nghiệp,"
         }
     ]);
     const [index, setIndex] = useState(0);
@@ -25,7 +25,7 @@ const RecipeCard = ({ imageHeight = 350 }) => {
             <div className='product_img'>
                 <img src={contents[index].image} />
             </div>
-            <div className='product_content'>
+            <div className='product_content restaurant_content'>
                 <div className='product_content_1'>
                     <div className='product_content_country'>
                         <h1>{contents[index].name}</h1>
@@ -36,7 +36,6 @@ const RecipeCard = ({ imageHeight = 350 }) => {
                     <div className='product_content_description'>
                         <p>{contents[index].description}</p>
                     </div>
-
                     <div className='product_content_btn'>
                         <button onClick={() => {
                             setIndex(prev => prev > 0 ? prev - 1 : 0);
@@ -45,16 +44,16 @@ const RecipeCard = ({ imageHeight = 350 }) => {
                             setIndex((prev) => prev >= contents.length - 1 ? 0 : prev + 1);
                         }}><i className="fa-solid fa-caret-right"></i></button>
                         <button onClick={() => {
-                            navigate('/tour/adsd');
+                            navigate('/restaurant/asdsd')
                         }}>Chi tiết</button>
                     </div>
                 </div>
             </div>
-            <div className='product_love'>
+            <div className='product_love restaurant_love'>
                 2000 <i className="fa-solid fa-heart"></i>
             </div>
         </div>
     )
 }
 
-export default RecipeCard
+export default RestaurantCard

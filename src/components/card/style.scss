@@ -1,0 +1,110 @@
+.product_card {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.product_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 40%;
+    z-index: 5;
+
+    &>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+}
+
+.product_content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #34D3E2;
+}
+
+.product_content_1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.product_content_country {
+    color: white;
+
+    &>h1 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+
+.product_content_name {
+    color: white;
+
+    &>h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+
+.product_content_description {
+    font-size: 12px;
+    height: 70px;
+    line-height: 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.product_content_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    & > button:first-child,
+    & > button:nth-child(2){
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border:none;
+        margin:0 2px;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.2);
+        color:white;
+    }
+    & > button:last-child{
+        border-radius: 20px;
+        font-size: 12px;
+        padding:3px 10px;
+        margin-left: 5px;
+        border:none;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.2);
+        color:white;
+    }
+}
+.product_love{
+    position: absolute;
+    right:3%;
+    top:3%;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 0 2px 2px #34D3E2;
+    padding:2px 5px;
+    border-radius: 20px;
+    font-size: 10px;
+    & > i{
+        color:red;
+    }
+}

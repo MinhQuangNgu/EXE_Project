@@ -5,84 +5,87 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './style.scss'
 import RecipeCard from '../card/RecipeCard';
 import ProfileCard from '../card/ProfileCard';
+import RestaurantCard from '../restaurant/RestaurantCard';
 const Home = () => {
   return (
     <>
-      <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="w-100" src="https://res.cloudinary.com/sttruyen/image/upload/v1694747978/pmp5hojav9c8osggx3hn.jpg" alt="Image" />
-              <div class="carousel-caption">
-                <div class="container">
-                  <div class="row justify-content-start">
-                    <div style={{ color: "black" }} class="col-lg-7">
-                      <h1 class="display-2 mb-5 animated slideInDown">Cùng nhau tạo nên những món ăn ngon</h1>
+      <div className="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img style={{ height: "100vh", objectFit: "cover" }} className="w-100" src="https://res.cloudinary.com/sttruyen/image/upload/v1696209092/ojs2worxc5u8iqlff7tv.jpg" alt="Image" />
+              <div className="carousel-caption">
+                <div className="container">
+                  <div className="row justify-content-start">
+                    <div style={{ color: "white" }} className="col-lg-7">
+                      <h1 className="display-2 mb-5 animated slideInDown">ENJOY THE WORLD</h1>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <img class="w-100" src="https://res.cloudinary.com/sttruyen/image/upload/v1694748169/gwrobojgvpbfyejhb40j.jpg" alt="Image" />
-              <div class="carousel-caption">
-                <div class="container">
-                  <div style={{ color: "black" }} class="row justify-content-start">
-                    <div class="col-lg-7">
-                      <h1 class="display-2 mb-5 animated slideInDown">Khám phá mọi miền ẩm thực của thế giới</h1>
+            <div className="carousel-item">
+              <img style={{ height: "100vh", objectFit: "cover" }} className="w-100" src="https://res.cloudinary.com/sttruyen/image/upload/v1696208616/fg5rpw5nruik5xcsqvtg.webp" alt="Image" />
+              <div className="carousel-caption">
+                <div className="container">
+                  <div style={{ color: "white" }} className="row justify-content-start">
+                    <div className="col-lg-7">
+                      <h1 className="display-2 mb-5 animated slideInDown">
+                        Experience
+                      </h1>
+                      <h1 className="display-2 mb-5 animated slideInDown">
+                        the best trip ever
+                      </h1>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+          <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+          <button className="carousel-control-next" type="button" data-bs-target="#header-carousel"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>
 
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-0 gx-5 align-items-end">
-            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
-              <h1 style={{ fontWeight: "700" }} class="display-5 mb-3">Nổi bật</h1>
-              <p>Những món ăn nổi bật được nhiều người yêu thích nhất.</p>
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-0 gx-5 align-items-end">
+            <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
+              <h1 style={{ fontWeight: "700" }} className="display-5 mb-3">Tour nổi bật</h1>
+              <p>Những tour được yêu thích nhiều nhất.</p>
             </div>
           </div>
-          <div class="tab-content">
-            <div class="tab-pane fade show p-0 active">
-              <div class="row g-4">
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div className="tab-content">
+            <div className="tab-pane fade show p-0 active">
+              <div className="row g-4">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                   <RecipeCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                   <RecipeCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                   <RecipeCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                   <RecipeCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                   <RecipeCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                   <RecipeCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
-                </div>
-                <div class="col-12 text-center">
-                  <Link class="btn btn-primary rounded-pill py-3 px-5" to="/search">Hiển thị thêm</Link>
+                <div className="col-12 text-center">
+                  <Link className="btn btn-primary rounded-pill py-3 px-5" to="/search">Hiển thị thêm</Link>
                 </div>
               </div>
             </div>
@@ -90,43 +93,37 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="container-xxl py-5">
-        <div class="container">
-          <div class="row g-0 gx-5 align-items-end">
-            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
-              <h1 style={{ fontWeight: "700" }} class="display-5 mb-3">Món mới</h1>
-              <p>Những món ăn mới được đưa lên bởi các đầu bếp được yêu thích nhất.</p>
+      <div className="container-xxl py-5">
+        <div className="container">
+          <div className="row g-0 gx-5 align-items-end">
+            <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
+              <h1 style={{ fontWeight: "700" }} className="display-5 mb-3">Quán ăn nổi bật</h1>
+              <p>Những tour mới của các hướng dẫn viên được yêu thích nhất.</p>
             </div>
           </div>
-          <div class="tab-content">
-            <div class="tab-pane fade show p-0 active">
-              <div class="row g-4">
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
+          <div className="tab-content">
+            <div className="tab-pane fade show p-0 active">
+              <div className="row g-4">
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <RestaurantCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <RestaurantCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <RestaurantCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <RestaurantCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <RestaurantCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
+                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <RestaurantCard />
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                  <RecipeCard />
-                </div>
-                <div class="col-12 text-center">
-                  <Link class="btn btn-primary rounded-pill py-3 px-5" to="/search">Hiển thị thêm</Link>
+                <div className="col-12 text-center">
+                  <Link className="btn btn-primary rounded-pill py-3 px-5" to="/search">Hiển thị thêm</Link>
                 </div>
               </div>
             </div>
@@ -134,11 +131,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="container-fluid bg-light bg-icon py-6 mb-5">
-        <div class="container">
-          <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
-            <h1 style={{ fontWeight: "700" }} class="display-5 mb-3">Đầu bếp ưa thích</h1>
-            <p>Những đầu bếp có số lượng theo dõi lớn nhất với cũng cống hiến vô cùng lớn của họ.</p>
+      <div className="container-fluid bg-light bg-icon py-6 mb-5">
+        <div className="container">
+          <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
+            <h1 style={{ fontWeight: "700",fontSize:"28px" }} className="display-5 mb-3">Hướng dẫn viên được yêu thích</h1>
+            <p>Những hướng dẫn viên có số lượng theo dõi lớn nhất với cũng cống hiến vô cùng lớn của họ.</p>
           </div>
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}

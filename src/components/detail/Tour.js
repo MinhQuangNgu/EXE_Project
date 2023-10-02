@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss'
 import data from '@emoji-mart/data'
 import Picker from '@emoji-mart/react'
-const Recipe = () => {
+const Tour = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -45,50 +45,8 @@ const Recipe = () => {
     return (
         <div className='recipe_bg'>
             <div className='container'>
-                <div className='row'>
-                    <div className='col-12'>
-                        <div className='recipe-img'>
-                            <img src="https://res.cloudinary.com/sttruyen/image/upload/v1694421665/pjcicfq1kncbstai4wbc.jpg" />
-                            <div className='recipe-introduction'>
-                                <p>Ngày nay, dù chúng ta được tiếp xúc với nhiều nền Ẩm thực từ các nước trên thế giới thế nhưng món ăn truyền thống Việt Nam vẫn đóng vai trò quan trọng trong nhịp sống hằng ngày và nhận được cảm tình của bạn bè quốc tế. Ngoài ra, Việt Nam còn nhiều món ăn đặc sắc được làm từ nguyên liệu tự nhiên. Cùng Chefjob.vn điểm tên một số nét đặc trưng của Ẩm thực Việt từ truyền thống đến hiện đại nhé.
-                                </p>
-                            </div>
-                            <div className='recipe-name'>
-                                <p style={{ marginBottom: "8px", textAlign: "center" }}>Thịt bò sào măng</p>
-                                <div className="rating d-flex justify-content-center w-100 flex-row-reverse">
-                                    {renderStars()}
-                                </div>
-                            </div>
-                            <div className='recipe-owner'>
-                                <div className='recipe-owner-image'>
-                                    <img src="https://res.cloudinary.com/sttruyen/image/upload/v1694421664/twfa0a0rxzx2lwtkeryt.jpg" />
-                                    <div className='recipe-owner-qr-img'>
-                                        <img src="https://res.cloudinary.com/sttruyen/image/upload/v1695020641/another/sotraosven0w6fdm4mr9.png" />
-                                    </div>
-                                    <div className='recipe-owner-attackment'>
-                                        <i className="fa-solid fa-paperclip"></i>
-                                    </div>
-                                </div>
-                                <div className='recipe-owner-name'>
-                                    <p>Minh Quang</p>
-                                </div>
-                                <div className='recipe-owner-btn'>
-                                    <button className='btn btn-primary'>Theo dõi</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='recipe_content'>
-                    <div className='col-10'>
-                        2Cách làm thịt kho tộ thấm vị
-                        Bước 1 Sơ chế nguyên liệu
-                        Rửa sạch thịt heo với nước sạch, sau đó cắt thành từng miếng vừa ăn. Với món này bạn có thể sử dụng thịt ba chỉ hay thịt nạc đều ngon.
-
-                        Hành tím và tỏi lột vỏ, rồi cắt lát mỏng, nếu thích bạn cũng có thể băm nhuyễn cũng được nha.
-
-                        Hành lá và ớt rửa sạch, hành lá thì cắt nhỏ, ớt bạn có thể để nguyên trái hoặc cắt nhỏ tùy theo sở thích ăn cay của mình.
-                    </div>
+                <div className='tour_detail'>
+                    
                 </div>
                 <div className='recipe-comments-rate'>
                     <section>
@@ -372,4 +330,4 @@ const Recipe = () => {
     )
 }
 
-export default Recipe
+export default Tour
