@@ -85,6 +85,14 @@ const RestaurantDetail = () => {
               </div>
               <div className='tour_image'>
                 <div className='tour_guide_title'>
+                  <i>Vị trí</i>
+                </div>
+                <div className='tour_guid_location'>
+                  
+                </div>
+                </div>
+              <div className='tour_image'>
+                <div className='tour_guide_title'>
                   <i>Ảnh nhà hàng</i>
                 </div>
                 <div className='tour_guid_img'>
