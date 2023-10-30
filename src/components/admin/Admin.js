@@ -34,7 +34,7 @@ const Admin = () => {
             <div style={{ minHeight: "50vh" }} className="navbar-nav w-100">
               <Link to="/admin/manager/dashboard" className={`nav-item nav-link ${type === 'dashboard' && 'active'}`}><i className="fa fa-tachometer-alt me-2"></i>Dashboard</Link>
               <Link to="/admin/manager/accounts" className={`nav-item nav-link ${type === 'accounts' && 'active'}`}><i className="fa fa-users"></i>Tài khoản</Link>
-              <Link to="/admin/manager/recipes" className={`nav-item nav-link ${type === 'recipes' && 'active'}`}><i className="fa fa-keyboard me-2"></i>Công thức</Link>
+              <Link to="/admin/manager/recipes" className={`nav-item nav-link ${type === 'recipes' && 'active'}`}><i className="fa fa-keyboard me-2"></i>Tour</Link>
             </div>
           </nav>
         </div>

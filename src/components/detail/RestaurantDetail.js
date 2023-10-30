@@ -88,9 +88,9 @@ const RestaurantDetail = () => {
                   <i>Vị trí</i>
                 </div>
                 <div className='tour_guid_location'>
-                  
+                  <img style={{ width: "100%", height: "100%", objectFit: "cover" }} src="https://res.cloudinary.com/sttruyen/image/upload/v1698671237/qcrredoxqjuqjoqjgmrl.png" />
                 </div>
-                </div>
+              </div>
               <div className='tour_image'>
                 <div className='tour_guide_title'>
                   <i>Ảnh nhà hàng</i>

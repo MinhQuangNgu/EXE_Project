@@ -14,7 +14,7 @@ const Accounts = () => {
                                         <th>ID</th>
                                         <th>Thông tin</th>
                                         <th>Vai trò</th>
-                                        <th>Công thức</th>
+                                        <th>Tours</th>
                                         <th>Theo dõi</th>
                                         <th>Status</th>
                                         <th>&nbsp;</th>
@@ -36,7 +36,7 @@ const Accounts = () => {
                                                 <span>Added: 01/03/2020</span>
                                             </div>
                                         </td>
-                                        <td className="border-bottom-0-custom">Đầu bếp</td>
+                                        <td className="border-bottom-0-custom">Tour Guilde</td>
                                         <td className="border-bottom-0-custom">50</td>
                                         <td className="border-bottom-0-custom">50</td>
                                         <td className="status border-bottom-0-custom"><span className="active">Active</span></td>
@@ -64,7 +64,7 @@ const Accounts = () => {
                                                 <span>Added: 01/03/2020</span>
                                             </div>
                                         </td>
-                                        <td className="border-bottom-0-custom">Đầu bếp</td>
+                                        <td className="border-bottom-0-custom">Tour Guilde</td>
                                         <td className="border-bottom-0-custom">50</td>
                                         <td className="border-bottom-0-custom">50</td>
                                         <td className="status border-bottom-0-custom"><span className="active">Active</span></td>

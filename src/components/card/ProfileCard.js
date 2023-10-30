@@ -23,7 +23,7 @@ const ProfileCard = () => {
                                         <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
                                             style={{ backgroundColor: "#efefef" }}>
                                             <div>
-                                                <p class="small text-muted mb-1">Articles</p>
+                                                <p class="small text-muted mb-1">Tours</p>
                                                 <p class="mb-0">41</p>
                                             </div>
                                             <div class="px-3">

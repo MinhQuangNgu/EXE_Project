@@ -46,7 +46,7 @@ const Dashboard = () => {
                 backgroundColor: "rgba(53, 162, 235, 0.5)",
             },
             {
-                label: "Công thức mới",
+                label: "Tour mới",
                 data: [
                     200, 20, 300, 400, 40, 100, 100, 20, 40,
                 ],
@@ -72,7 +72,7 @@ const Dashboard = () => {
                         <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
                             <i className="fa fa-chart-bar fa-3x text-primary"></i>
                             <div className="ms-3">
-                                <p className="mb-2">Tổng công thức</p>
+                                <p className="mb-2">Tổng tour</p>
                                 <h6 className="mb-0">400</h6>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Dashboard = () => {
                         <div className="bg-light rounded d-flex align-items-center justify-content-between p-4">
                             <i className="fa fa-chart-area fa-3x text-primary"></i>
                             <div className="ms-3">
-                                <p className="mb-2">Tổng đầu bếp</p>
+                                <p className="mb-2">Tổng tour guilde</p>
                                 <h6 className="mb-0">80</h6>
                             </div>
                         </div>
@@ -151,7 +151,7 @@ const Dashboard = () => {
             <div className="container-fluid pt-4 px-4">
                 <div className="bg-light text-center rounded p-4">
                     <div className="d-flex align-items-center justify-content-between mb-4">
-                        <h6 className="mb-0">Công thức mới</h6>
+                        <h6 className="mb-0">Tour mới</h6>
                     </div>
                     <div className="table-responsive">
                         <table className="table text-start align-middle table-bordered table-hover mb-0">
@@ -159,7 +159,7 @@ const Dashboard = () => {
                                 <tr className="text-dark">
                                     <th scope="col"><input className="form-check-input" type="checkbox" /></th>
                                     <th scope="col">Ngày tạo</th>
-                                    <th scope="col">Tên công thức</th>
+                                    <th scope="col">Tên tour</th>
                                     <th scope="col">Người tạo</th>
                                     <th scope="col">Actions</th>
                                 </tr>

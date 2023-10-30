@@ -4,6 +4,7 @@ import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 import RecipeCard from '../card/RecipeCard';
 import ChefCard from '../card/ChefCard';
+import RestaurentCard from '../restaurant/RestaurantCard';
 const animatedComponents = makeAnimated();
 const Searching = () => {
 
@@ -93,26 +94,26 @@ const Searching = () => {
                     <div className='col-1'></div>
                     <div className='col-10'>
                         <div className='row w-100 search_container'>
-                            <div style={{ marginBottom: "20px" }} class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div style={{ marginBottom: "20px" }} class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <RecipeCard />
                             </div>
-                            <di style={{ marginBottom: "20px" }} v class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <di style={{ marginBottom: "20px" }} v class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <RecipeCard />
                             </di>
-                            <div style={{ marginBottom: "20px" }} class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div style={{ marginBottom: "20px" }} class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <RecipeCard />
                             </div>
-                            <div style={{ marginBottom: "20px" }} class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div style={{ marginBottom: "20px" }} class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <RecipeCard />
                             </div>
-                            <div style={{ marginBottom: "20px" }} class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div style={{ marginBottom: "20px" }} class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <RecipeCard />
                             </div>
-                            <div style={{ marginBottom: "20px" }} class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <ChefCard />
+                            <div style={{ marginBottom: "20px" }} class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <RestaurentCard />
                             </div>
-                            <div style={{ marginBottom: "20px" }} class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <ChefCard />
+                            <div style={{ marginBottom: "20px" }} class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <RestaurentCard />
                             </div>
                             <div style={{marginTop:"30px"}} className='col-12 d-flex justify-content-center'>
                                 <nav aria-label="Page navigation example">

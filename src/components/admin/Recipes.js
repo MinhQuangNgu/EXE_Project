@@ -12,7 +12,7 @@ const Recipes = () => {
                                 <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Tên món</th>
+                                        <th>Tên tour</th>
                                         <th>Người tạo</th>
                                         <th>Status</th>
                                         <th>&nbsp;</th>
@@ -24,18 +24,18 @@ const Recipes = () => {
                                             50
                                         </td>
                                         <td class="d-flex align-items-center border-bottom-0-custom">
-                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1694421667/ksjctjx7rrwocptprfdx.jpg')", marginRight: "10px" }}></div>
+                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1698672447/r6vxs1rac7ijjbcmbcp0.jpg')", marginRight: "10px" }}></div>
                                             <div class="pl-3 email">
                                                 <span>
                                                     <Link to='/'>
-                                                        Súp canh chuyền thống
+                                                        Du lịch Phú Quốc 3 ngày 2 đêm
                                                     </Link>
                                                 </span>
                                                 <span>Added: 01/03/2020</span>
                                             </div>
                                         </td>
                                         <td class="border-bottom-0-custom">
-                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1694421667/ksjctjx7rrwocptprfdx.jpg')", marginLeft: "10px" }}></div>
+                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1698672447/r6vxs1rac7ijjbcmbcp0.jpg')", marginLeft: "10px" }}></div>
                                             <div class="pl-3 email">
                                                 <span>
                                                     <Link to='/minhquang/profile'>
@@ -56,18 +56,18 @@ const Recipes = () => {
                                             50
                                         </td>
                                         <td class="d-flex align-items-center border-bottom-0-custom">
-                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1694421667/ksjctjx7rrwocptprfdx.jpg')", marginRight: "10px" }}></div>
+                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1698672447/r6vxs1rac7ijjbcmbcp0.jpg')", marginRight: "10px" }}></div>
                                             <div class="pl-3 email">
                                                 <span>
                                                     <Link to='/'>
-                                                        Súp canh chuyền thống
+                                                        Du lịch Đà Nẵng
                                                     </Link>
                                                 </span>
                                                 <span>Added: 01/03/2020</span>
                                             </div>
                                         </td>
                                         <td class="border-bottom-0-custom">
-                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1694421667/ksjctjx7rrwocptprfdx.jpg')", marginLeft: "10px" }}></div>
+                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1698672447/r6vxs1rac7ijjbcmbcp0.jpg')", marginLeft: "10px" }}></div>
                                             <div class="pl-3 email">
                                                 <span>
                                                     <Link to='/minhquang/profile'>
@@ -88,18 +88,18 @@ const Recipes = () => {
                                             50
                                         </td>
                                         <td class="d-flex align-items-center border-bottom-0-custom">
-                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1694421667/ksjctjx7rrwocptprfdx.jpg')", marginRight: "10px" }}></div>
+                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1698672447/r6vxs1rac7ijjbcmbcp0.jpg')", marginRight: "10px" }}></div>
                                             <div class="pl-3 email">
                                                 <span>
                                                     <Link to='/'>
-                                                        Súp canh chuyền thống
+                                                        Du lịch Nha Trang
                                                     </Link>
                                                 </span>
                                                 <span>Added: 01/03/2020</span>
                                             </div>
                                         </td>
                                         <td class="border-bottom-0-custom">
-                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1694421667/ksjctjx7rrwocptprfdx.jpg')", marginLeft: "10px" }}></div>
+                                            <div class="img" style={{ backgroundImage: "url('https://res.cloudinary.com/sttruyen/image/upload/v1698672447/r6vxs1rac7ijjbcmbcp0.jpg')", marginLeft: "10px" }}></div>
                                             <div class="pl-3 email">
                                                 <span>
                                                     <Link to='/minhquang/profile'>
